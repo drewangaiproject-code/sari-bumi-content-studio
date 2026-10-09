@@ -1,14 +1,15 @@
-# P01 Kunir Asam — Reel Copy Draft 02
+# P01 Kunir Asam — Reel Copy V2
 
 - **Project:** SARI BUMI Content Studio
 - **Product:** P01 Kunir Asam
 - **Role:** Content Writer
 - **Working title:** Dulu Kebayangnya Begini
-- **Status:** `COPY_DRAFT`
-- **Approval:** Belum disetujui untuk produksi atau publikasi
+- **Status:** `COPY_FINAL`
+- **Copy approval:** Disetujui oleh pemilik pada 2026-10-09
+- **Scope of approval:** Persetujuan naskah/copy saja. Bukan persetujuan visual, produksi, atau publikasi.
 - **Creative direction:** Perception Reset; natural, seperti ngobrol sehari-hari, relatable, tidak terlalu puitis
 - **Visual:** Belum dibuat
-- **Fact status:** Informasi produk masih perlu diverifikasi; naskah ini sengaja membahas persepsi umum tentang jamu, bukan klaim spesifik produk
+- **Fact status:** Informasi produk masih perlu diverifikasi; naskah ini membahas persepsi umum tentang jamu, bukan klaim spesifik produk
 
 ## Konsep
 
@@ -52,9 +53,8 @@ Ceritain di komentar, yuk!
 
 - Penjual jamu keliling, botol jamu, dan pengalaman masa kecil disajikan sebagai contoh kemungkinan, bukan pengalaman yang diasumsikan dimiliki semua audiens.
 - Tidak ada klaim tentang manfaat kesehatan, khasiat, rasa, bahan, efektivitas, atau kualitas produk.
-- Naskah masih membahas kategori jamu secara umum; kaitan spesifik dengan P01 Kunir Asam perlu ditambahkan hanya setelah fakta produk terverifikasi.
-- Naskah ini dapat menjadi pembuka seri Perception Reset, tetapi hubungan dengan produk perlu ditinjau pada tahap berikutnya.
-- Jangan membuat visual, memproduksi, atau memublikasikan naskah ini sebelum persetujuan pemilik diberikan pada tahap yang sesuai.
+- Naskah masih membahas kategori jamu secara umum; kaitan spesifik dengan P01 Kunir Asam perlu ditinjau setelah fakta produk terverifikasi.
+- Naskah dapat menjadi pembuka seri Perception Reset, tetapi hubungan dengan produk perlu ditinjau pada tahap berikutnya.
 
 ## Hasil Content QC
 
@@ -65,6 +65,10 @@ Ceritain di komentar, yuk!
 - Kepatuhan fakta: lulus; tidak ada klaim produk yang belum diverifikasi.
 - Kaitan dengan P01 Kunir Asam: masih perlu ditinjau setelah fakta produk tersedia.
 
+## Batas Persetujuan
+
+Persetujuan pemilik pada 2026-10-09 berlaku untuk copy/naskah ini saja. Visual, motion, produksi, dan publikasi belum disetujui dan tidak boleh dianggap otomatis mendapat persetujuan dari status copy ini.
+
 ## Next Step
 
-Minta persetujuan copy dari pemilik pada tahap berikutnya. Jika disetujui, barulah siapkan arahan visual/motion berdasarkan naskah ini. Status tetap `COPY_DRAFT` sampai persetujuan eksplisit diberikan.
+Siapkan **brief visual/motion** berdasarkan copy yang telah disetujui. Brief hanya untuk perencanaan; jangan membuat/render visual atau memublikasikan konten tanpa instruksi dan persetujuan terpisah.
