@@ -30,9 +30,9 @@ Mengajak audiens mengingat hal pertama yang mereka bayangkan saat mendengar kata
 
 “Kayaknya kita punya bayangan masing-masing soal jamu, ya.”
 
-**Payoff**
+**Payoff — revisi QC**
 
-“Tapi sekarang, kalau lihat jamu, apa yang kamu pikirkan masih sama seperti dulu?”
+“Tapi sekarang, kalau dengar kata jamu, kamu masih kepikiran hal yang sama nggak?”
 
 **CTA**
 
@@ -56,6 +56,15 @@ Ceritain di komentar, yuk!
 - Naskah ini dapat menjadi pembuka seri Perception Reset, tetapi hubungan dengan produk perlu ditinjau pada tahap berikutnya.
 - Jangan membuat visual, memproduksi, atau memublikasikan naskah ini sebelum persetujuan pemilik diberikan pada tahap yang sesuai.
 
+## Hasil Content QC
+
+- Bahasa natural dan relatable: lulus.
+- Hook: lulus.
+- Payoff: diperbarui agar lebih terasa seperti percakapan sehari-hari.
+- CTA: lulus.
+- Kepatuhan fakta: lulus; tidak ada klaim produk yang belum diverifikasi.
+- Kaitan dengan P01 Kunir Asam: masih perlu ditinjau setelah fakta produk tersedia.
+
 ## Next Step
 
-Lakukan **Content QC** pada copy draft: periksa kealamian bahasa, kekuatan hook, kejelasan payoff, CTA, dan kepatuhan fakta. Setelah itu, minta persetujuan copy dari pemilik sebelum masuk ke tahap visual/motion.
+Minta persetujuan copy dari pemilik pada tahap berikutnya. Jika disetujui, barulah siapkan arahan visual/motion berdasarkan naskah ini. Status tetap `COPY_DRAFT` sampai persetujuan eksplisit diberikan.
