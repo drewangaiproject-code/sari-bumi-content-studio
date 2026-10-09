@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sari Bumi — Reel Motion Placeholder</title>
+<style>
+:root{--green:#275549;--orange:#F29000;--amber:#E8AF30;--cream:#FFFDF7;--ink:#183c34}
+*{box-sizing:border-box}body{margin:0;background:#e9e7df;color:var(--ink);font-family:Inter,Arial,sans-serif;display:grid;place-items:center;min-height:100vh;padding:24px}
+.shell{width:min(100%,420px)}.note{font-size:12px;color:#565e58;margin:0 0 10px}
+.frame{position:relative;aspect-ratio:9/16;background:var(--cream);overflow:hidden;border-radius:22px;box-shadow:0 16px 45px #14251d26;isolation:isolate}
+.topline{position:absolute;inset:0 0 auto;height:7px;background:var(--green)}
+.logo-slot{position:absolute;top:5.5%;left:50%;transform:translateX(-50%);width:28%;aspect-ratio:1;border:1.5px dashed #8b9d94;border-radius:12px;display:grid;place-items:center;text-align:center;padding:8px;background:#fffdf7e8;z-index:5}
+.logo-slot span{font-size:10px;line-height:1.35;color:#45685e;font-weight:700;letter-spacing:.04em}
+.eyebrow{position:absolute;top:25%;left:8%;right:8%;text-align:center;font-size:10px;letter-spacing:.2em;font-weight:800;color:var(--green)}
+h1{position:absolute;top:29%;left:7%;right:7%;margin:0;text-align:center;font-family:Georgia,serif;font-weight:700;font-size:clamp(32px,9vw,43px);line-height:1.02;letter-spacing:-.045em;color:var(--green);z-index:2}
+h1 em{font-style:normal;color:#b85f00}
+.sub{position:absolute;top:44%;left:12%;right:12%;text-align:center;font-size:13px;line-height:1.5;font-weight:600;color:#304b42;z-index:2}
+.botanical{position:absolute;inset:45% -4% 11%;width:108%;height:48%;z-index:1}
+.base{position:absolute;left:13%;right:13%;bottom:15%;height:2px;background:#27554930}
+.footer{position:absolute;bottom:5.5%;left:8%;right:8%;display:flex;justify-content:space-between;align-items:center;font-size:9px;letter-spacing:.13em;color:#46655b;font-weight:800}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--orange);display:inline-block;margin-right:5px}
+.controls{display:flex;gap:8px;margin-top:12px}.controls button{flex:1;border:0;border-radius:999px;padding:11px 14px;background:var(--green);color:white;font-weight:700;cursor:pointer}.controls button.secondary{background:#fff;color:var(--green);border:1px solid #cad4cd}
+.small{font-size:11px;color:#5b625d;margin-top:9px;line-height:1.5}
+.grow{transform-origin:50% 100%;animation:grow 3.2s cubic-bezier(.2,.8,.2,1) both}.leaf{transform-box:fill-box;transform-origin:0% 100%;animation:leaf 2.6s ease-out both}.leaf.delay{animation-delay:.35s}.leaf.delay2{animation-delay:.7s}
+.ribbon{stroke-dasharray:900;stroke-dashoffset:900;animation:draw 4.5s ease-in-out .4s forwards}.pulse{animation:pulse 3s ease-in-out infinite}
+.paused *{animation-play-state:paused!important}
+@keyframes grow{from{transform:scaleY(.05);opacity:.3}to{transform:scaleY(1);opacity:1}}
+@keyframes leaf{from{transform:scale(.1) rotate(-22deg);opacity:0}to{transform:scale(1) rotate(0);opacity:1}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+<main class="shell">
+<p class="note">SARI BUMI CONTENT STUDIO · MOTION LAYOUT STUDY 01</p>
+<section class="frame" id="frame" aria-label="Prototype komposisi Reel vertikal">
+<div class="topline"></div>
+<div class="logo-slot" aria-label="Placeholder untuk logo SVG asli"><span>LOGO SVG<br>ASLI DI SINI</span></div>
+<div class="eyebrow">CERITA BOTANIKAL · PILOT KONSEP</div>
+<h1>Dari <em>alam,</em><br>jadi cerita.</h1>
+<p class="sub">Ruang visual untuk memperkenalkan bahan dan cerita produk—tanpa klaim yang belum diverifikasi.</p>
+<svg class="botanical" viewBox="0 0 360 420" role="img" aria-label="Ilustrasi botanikal bergerak">
+<defs><linearGradient id="stem" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#275549"/><stop offset="1" stop-color="#6c9c70"/></linearGradient></defs>
+<path class="ribbon" d="M-10 330 C55 285 32 215 106 198 S192 170 188 115 S264 90 375 24" fill="none" stroke="#F29000" stroke-width="5" stroke-linecap="round"/>
+<g class="grow" fill="none" stroke="url(#stem)" stroke-width="5" stroke-linecap="round"><path d="M178 350 C170 300 186 251 171 209 C164 181 170 146 180 116"/></g>
+<g class="leaf" fill="#275549"><path d="M172 250 C119 248 92 220 90 183 C131 186 162 209 172 250Z"/></g>
+<g class="leaf delay" fill="#4f8067"><path d="M174 218 C211 179 245 176 274 190 C249 222 216 234 174 218Z"/></g>
+<g class="leaf delay2" fill="#6f9876"><path d="M178 169 C139 151 129 124 138 97 C169 115 181 138 178 169Z"/></g>
+<g class="leaf delay" fill="#275549"><path d="M180 144 C201 110 228 100 252 108 C235 135 209 150 180 144Z"/></g>
+<path d="M90 352 C137 341 211 341 270 352" fill="none" stroke="#275549" stroke-width="1.5" opacity=".35"/>
+<circle class="pulse" cx="277" cy="284" r="5" fill="#F29000"/><circle class="pulse" cx="78" cy="267" r="3" fill="#E8AF30"/>
+</svg>
+<div class="base"></div>
+<div class="footer"><span><i class="dot"></i>BOTANICAL BUILD</span><span>REEL 9:16 · DRAFT</span></div>
+</section>
+<div class="controls"><button id="replay">Putar ulang</button><button id="pause" class="secondary">Jeda</button></div>
+<p class="small">Catatan: kotak putus-putus hanya placeholder penempatan logo. Ganti dengan file SVG resmi tanpa mengubah bentuk atau menganimasikan logonya. Copy dan ilustrasi masih bahan uji, bukan konten final.</p>
+</main>
+<script>
+const frame=document.getElementById('frame'),pause=document.getElementById('pause');
+document.getElementById('replay').addEventListener('click',()=>{frame.classList.remove('paused');pause.textContent='Jeda';frame.querySelectorAll('*').forEach(el=>{el.style.animation='none';void el.offsetWidth;el.style.animation=''});});
+pause.addEventListener('click',()=>{const paused=frame.classList.toggle('paused');pause.textContent=paused?'Lanjut':'Jeda';});
+</script>
+</body></html>
